@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+.npm
+
+# Build outputs
+dist/
+build/
+target/
+
+# Variables de entorno (NUNCA subir al repo)
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Java
+*.class
+*.jar
+!app.jar
